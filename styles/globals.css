@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-b h-auto from-[#1e1e1e] to-black
+  text-[#d3d3d3]
+}
+
+.logo-letter {
+  @apply hover:text-amber-100 transition duration-500
+}
